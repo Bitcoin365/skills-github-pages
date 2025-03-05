@@ -6,7 +6,7 @@
   <body>
     <Header>
       <nav id="home">
-        <a href="./HTML.html">HTML</a>
+        <a href="./index.md">HTML</a>
         <a href="./CSS.html">CSS</a>
         <a href="./Leisure.html">2nd Page</a>
       </nav>
