@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>HTML</title>
-    <link rel="stylesheet" href="./styles.css"/>
+    <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/732/732212.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
