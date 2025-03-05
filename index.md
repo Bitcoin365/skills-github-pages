@@ -7,8 +7,6 @@
     <Header>
       <nav id="home">
         <a href="./index.md">HTML</a>
-        <a href="./CSS.html">CSS</a>
-        <a href="./Leisure.html">2nd Page</a>
       </nav>
     <main>
         <a href="https://w3schools.com/html" target="_blank"><h2>Elements: < ><br>Attributes: =</h2></a>
