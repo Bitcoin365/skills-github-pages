@@ -13,7 +13,6 @@
     <main>
         <a href="https://w3schools.com/html" target="_blank"><h2>Elements: < ><br>Attributes: =</h2></a>
       </div>
-     <br>
       <section class='list'>
         <ul>
           <h3>page formatting</h3>
