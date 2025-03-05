@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'NerkoOne';
+    src: url('./NerkoOne-Regular.ttf') format('ttf'),
+         url('./NerkoOne-Regular.ttf') format('truetype');
+}
+* {
+    font-family: BioRhyme, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    text-decoration: unset;
+    box-sizing: border-box;
+}
+h3 {
+    color: black;
+    text-transform: capitalize;
+}
+.bul {
+    list-style-type: square;
+}
+.wrap {
+    list-style-position: inside;
+}
+header {
+    margin: 22px 8px;
+    position: sticky;
+    top: 20px;
+    left: 50px;
+    z-index: 2;
+}
+.marg {
+    font-family: NerkoOne;
+}
+.cool {
+    font-style: italic;
+    font-size: 20px;
+}
+.back {
+    position: fixed;
+    z-index: -10;
+    opacity: 0.5;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+#top [href] {
+    background-color: blue;
+    border: 2px solid blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+#top [href]:hover {
+    color: blue;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+
+#home [href] {
+    background-color: #f1832a;
+    border: 2px solid #f1832a;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+#home [href]:hover {
+    color: #f1832a;
+    background-color: white;
+    border: 2px solid #f1832a;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+#home [href*='Leisure'] {
+    color: transparent;
+    background-color: transparent;
+    border: 0 none;
+    z-index: 1;
+    float: right;
+}
+#home [href*='Leisure']:hover {
+    color: transparent;
+    background-color: transparent;
+    border: 0 none ;
+}
+#top [href*='Leisure'] {
+    color: transparent;
+    background-color: transparent;
+    border: 0 none;
+    z-index: 1;
+    float: right;
+}
+#top [href*='Leisure']:hover {
+    color: transparent;
+    background-color: transparent;
+    border: 0 none ;
+}
+.er {
+    width: 250px;
+    margin: 0px auto;
+    height: 200px;
+    
+}
+.er h2 {
+    color: white;
+    text-align: center;
+    background-color: black;
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    border-radius: 9px;
+    padding: 15px;
+    position: sticky;
+    top: 10px;
+    z-index: 1;
+}
+.er h2:hover{
+    color: black;
+    text-align: center;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 15px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+table {
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+.tb th {
+    font-weight: 500;
+}
+.form {
+    width: 33%;
+    display: inline-block;
+}
+form {
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    min-width: 320px;
+    background-color: aliceblue;
+}
+
+p {
+    display: inline;
+}
+.css {
+    height: 200px;
+    margin: 0 auto;
+    
+}
+ul {
+    display: inline-block;
+    vertical-align: text-top;
+    border: 4px solid black;
+    border-radius: 10px;
+    padding: 0px 20px 20px 30px;
+    margin: 10px;
+    box-sizing: content-box;
+    box-shadow: 0px 0px 15px black;
+    background-color: aliceblue;
+}
+.ol {
+    margin: 50px;
+    background-color: aliceblue;
+    border: 3px dotted black;
+    border-radius: 14px;
+    box-shadow: 0 0 15px #f1832a;
+}
+.box {
+    width: 100%;
+}
+
+.wid {
+    width: 254px;
+}
+ul span,
+table span {
+    color: red;
+}
+.no {
+    border: 0 none;
+    box-shadow: none;
+    padding: 0;
+}
+img[src*='top'] {
+    height: 50px;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    z-index: 1;
+    background-color: white;
+    border-radius: 50%;
+}
+audio {
+    position: relative;
+    top: 17px;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+body {
+    margin: 0;
+}
